@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    transition: background 0.5s, color 0.5s;
+}
+
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .hey {
+    color: cyan;
+}
+
+
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: gray;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#fontSelector {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.hey {
+    color: magenta;
+}
